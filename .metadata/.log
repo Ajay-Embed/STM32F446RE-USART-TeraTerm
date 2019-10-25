@@ -1,0 +1,1659 @@
+!SESSION 2019-10-09 15:35:04.326 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-09 15:35:15.717
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\blueh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-10-09 15:35:21.426
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 2.0.4.v20170307-1435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY fr.ac6.mcu.ide 1 1 2019-10-09 15:35:21.553
+!MESSAGE Started RMI Server, listening on port 21112
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-09 15:35:35.688
+!MESSAGE Indexed 'usart_TerTerm' (23 sources, 83 headers) in 2.9 sec: 5,288 declarations; 34,507 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-09 15:43:57.414
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-10-09 15:43:57.416
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:44:36.857
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:44:39.888
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:44:42.837
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:44:45.788
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:44:48.809
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:44:51.878
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:44:54.824
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:44:57.839
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:45:00.812
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:45:03.878
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:45:07.312
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:45:10.377
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:45:13.635
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:45:16.533
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:45:19.641
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:45:22.800
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:45:25.920
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 15:45:28.985
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY fr.ac6.mcu.debug 4 0 2019-10-09 15:46:03.517
+!MESSAGE Bad file descriptor in nativeavailable
+!STACK 0
+java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1568)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.waitForOuptut(SerialConsoleManager.java:500)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.run(SerialConsoleManager.java:486)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY fr.ac6.mcu.debug 4 0 2019-10-09 15:55:08.661
+!MESSAGE Bad file descriptor in writeArray
+!STACK 0
+java.io.IOException: Bad file descriptor in writeArray
+	at gnu.io.RXTXPort.writeArray(Native Method)
+	at gnu.io.RXTXPort$SerialOutputStream.write(RXTXPort.java:1171)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialWriter.sendCommand(SerialConsoleManager.java:592)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialWriter.resendCommand(SerialConsoleManager.java:581)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.waitForOuptut(SerialConsoleManager.java:512)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.run(SerialConsoleManager.java:457)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY fr.ac6.mcu.debug 4 0 2019-10-09 15:55:08.744
+!MESSAGE Bad file descriptor in nativeavailable
+!STACK 0
+java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1568)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.waitForOuptut(SerialConsoleManager.java:500)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.run(SerialConsoleManager.java:457)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-10-09 16:02:22.746
+!MESSAGE Unknown Host: http://download.eclipse.org/releases/neon/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-10-09 16:02:22.763
+!MESSAGE Unknown Host: http://download.eclipse.org/eclipse/updates/4.6/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2019-10-09 16:02:22.784
+!MESSAGE Unknown Host: http://www.ac6-tools.com/Eclipse-updates/org.openstm32.system-workbench.update-site-v2/compositeContent.xml
+!STACK 0
+java.net.UnknownHostException: www.ac6-tools.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 16:16:00.791
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 16:16:03.634
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 16:16:06.642
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 16:16:09.609
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 16:16:12.474
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 16:16:15.657
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 16:16:18.621
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 16:16:22.015
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 16:16:25.276
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 16:16:28.658
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 16:16:31.364
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2019-10-09 17:01:29.028
+!MESSAGE Error with command: gdb --version
+!STACK 0
+java.io.IOException: Cannot run program "gdb": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:120)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:71)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getGDBVersion(GdbLaunch.java:524)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:142)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:101)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:90)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:02.475
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:05.790
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:09.231
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:12.686
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:16.121
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:19.482
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:22.447
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:25.826
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:29.268
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:31.796
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:34.425
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:37.446
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:40.828
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:44.034
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:46.882
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:50.141
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:53.132
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:56.044
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:19:59.230
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:21:46.990
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:21:50.031
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:21:53.505
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:21:56.619
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:21:59.235
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:01.957
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:04.945
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:08.040
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:11.120
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:14.352
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:17.503
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:20.737
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:23.659
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:26.644
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:29.568
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:32.497
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:35.302
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:37.744
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:40.192
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:42.666
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:45.144
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:47.656
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:50.139
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:22:52.618
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:26:50.392
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:26:52.803
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:26:55.275
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:26:57.752
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:00.326
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:02.801
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:05.259
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:07.718
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:10.188
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:12.664
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:15.079
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:17.595
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:20.030
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:22.462
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:24.963
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:27.436
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:29.956
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:32.427
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:34.861
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:37.373
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:39.865
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:42.295
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:44.760
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:47.234
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:49.714
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:52.147
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:54.589
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:57.015
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:27:59.460
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:28:01.879
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:28:04.330
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:28:06.786
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY com.st.stm32ide.mpu.debug 4 0 2019-10-09 17:28:09.282
+!MESSAGE gnu.io.PortInUseException: Unknown Application
+!STACK 0
+com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialConsoleException: gnu.io.PortInUseException: Unknown Application
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:695)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendDefaultCommand(SerialConsoleManager.java:419)
+	at com.st.stm32ide.mpu.debug.ui.status.MPUWorkbenchWindowControlContribution$UIRefreshJob.run(MPUWorkbenchWindowControlContribution.java:497)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: gnu.io.PortInUseException: Unknown Application
+	at gnu.io.CommPortIdentifier.open(CommPortIdentifier.java:474)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager.sendCommand(SerialConsoleManager.java:668)
+	... 3 more
+
+!ENTRY fr.ac6.mcu.debug 4 0 2019-10-09 21:23:21.292
+!MESSAGE Bad file descriptor in writeArray
+!STACK 0
+java.io.IOException: Bad file descriptor in writeArray
+	at gnu.io.RXTXPort.writeArray(Native Method)
+	at gnu.io.RXTXPort$SerialOutputStream.write(RXTXPort.java:1171)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialWriter.sendCommand(SerialConsoleManager.java:592)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialWriter.resendCommand(SerialConsoleManager.java:581)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.waitForOuptut(SerialConsoleManager.java:512)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.run(SerialConsoleManager.java:457)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY fr.ac6.mcu.debug 4 0 2019-10-09 21:23:21.428
+!MESSAGE Bad file descriptor in nativeavailable
+!STACK 0
+java.io.IOException: Bad file descriptor in nativeavailable
+	at gnu.io.RXTXPort.nativeavailable(Native Method)
+	at gnu.io.RXTXPort$SerialInputStream.available(RXTXPort.java:1568)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.waitForOuptut(SerialConsoleManager.java:500)
+	at com.st.stm32ide.mpu.debug.console.SerialConsoleManager$SerialReader.run(SerialConsoleManager.java:457)
+	at java.lang.Thread.run(Thread.java:748)
+!SESSION 2019-10-10 10:54:03.549 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-10-10 10:54:08.809
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-10 10:54:25.848
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\blueh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-10-10 10:54:31.942
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 2.0.4.v20170307-1435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY fr.ac6.mcu.ide 1 1 2019-10-10 10:54:33.493
+!MESSAGE Started RMI Server, listening on port 21112
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-10-10 11:52:32.120
+!MESSAGE Unable to read repository at http://download.eclipse.org/eclipse/updates/4.6/compositeContent.xml.
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:197)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-10-10 11:52:32.286
+!MESSAGE Unable to read repository at http://www.ac6-tools.com/Eclipse-updates/org.openstm32.system-workbench.update-site-v2/compositeContent.xml.
+!STACK 0
+org.apache.http.NoHttpResponseException: www.ac6-tools.com failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:143)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:197)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-10-20 21:40:34.027 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product -data Z:\STM32 workspace3 -pluginCustomization configuration/st_pref.ini -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-10-20 21:40:46.043
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\blueh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-10-20 21:40:50.724
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 2.0.4.v20170307-1435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY fr.ac6.mcu.ide 1 1 2019-10-20 21:40:51.167
+!MESSAGE Started RMI Server, listening on port 21112
